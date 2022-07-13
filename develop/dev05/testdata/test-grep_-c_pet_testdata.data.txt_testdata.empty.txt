@@ -1,0 +1,2 @@
+testdata/data.txt:4
+testdata/empty.txt:0

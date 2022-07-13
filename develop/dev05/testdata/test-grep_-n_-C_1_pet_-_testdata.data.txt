@@ -1,0 +1,23 @@
+(standard input)-6-aaa bbb 4
+(standard input):7:moo 7 0  pet
+(standard input):8:meow 7 0 pet
+(standard input)-9-bark 7 dog
+--
+(standard input)-12-
+(standard input):13:2 8 pet
+(standard input)-14-10 5 2 3
+--
+(standard input)-18-lala 8 -1 .*
+(standard input):19:2 3 42 pet
+--
+testdata/data.txt-6-aaa bbb 4
+testdata/data.txt:7:moo 7 0  pet
+testdata/data.txt:8:meow 7 0 pet
+testdata/data.txt-9-bark 7 dog
+--
+testdata/data.txt-12-
+testdata/data.txt:13:2 8 pet
+testdata/data.txt-14-10 5 2 3
+--
+testdata/data.txt-18-lala 8 -1 .*
+testdata/data.txt:19:2 3 42 pet

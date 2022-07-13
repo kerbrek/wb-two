@@ -1,0 +1,38 @@
+zzz cow 6 3
+zzz cow 6 3
+zzz cow 6 3
+zzz cow 6 3
+moo 7 0  pet
+moo 7 0  pet
+moo 7 0
+moo 7 0
+meow 7 0 pet
+meow 7 0 pet
+lala 8 -1
+lala 8 -1
+bark 7 dog
+bark 7 dog
+aaa bbb 4
+aaa bbb 4
+aaa bbb 4
+aaa bbb 4
+5 9 3.6
+5 9 3.6
+5 9 3.5
+5 9 3.5
+5 9 3
+5 9 3
+44 9 17 2
+44 9 17 2
+2 8 pet
+2 8 pet
+2 3 42 pet
+2 3 42 pet
+12 13 cat
+12 13 cat
+10 5 2 3
+10 5 2 3
+10  5  2  3
+10  5  2  3
+
+

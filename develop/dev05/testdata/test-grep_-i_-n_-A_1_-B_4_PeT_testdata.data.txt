@@ -1,0 +1,19 @@
+1:5 9 3.5 PET
+2-5 9 3.6
+3-5 9 3
+4-44 9 17 2 .*
+5-aaa bbb 4
+6-aaa bbb 4
+7:moo 7 0  pet
+8:meow 7 0 pet
+9-bark 7 dog
+10-12 13 cat
+11-moo 7 0
+12-
+13:2 8 pet
+14-10 5 2 3
+15-10  5  2  3
+16-zzz cow 6 3
+17-zzz cow 6 3
+18-lala 8 -1 .*
+19:2 3 42 pet

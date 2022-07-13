@@ -1,0 +1,77 @@
+###
+POST http://127.0.0.1:8080/create_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&date=2022-07-01&name=Some+event&desc=Some+description
+
+###
+POST http://127.0.0.1:8080/create_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&date=2022-06-29&name=Another+event
+
+###
+POST http://127.0.0.1:8080/update_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&event_id=2&date=2022-06-28&name=Updated+event&desc=Updated+description
+
+###
+POST http://127.0.0.1:8080/delete_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&event_id=2
+
+
+###
+GET http://127.0.0.1:8080/events_for_day?user_id=1&date=2022-07-01
+
+###
+GET http://127.0.0.1:8080/events_for_week?user_id=1&date=2022-07-01
+
+###
+GET http://127.0.0.1:8080/events_for_month?user_id=1&date=2022-07-01
+
+###
+GET http://127.0.0.1:8080/events_for_month?user_id=1&date=2022-06-01
+
+
+
+###
+GET http://127.0.0.1:8080/
+
+###
+POST http://127.0.0.1:8080/
+
+###
+POST http://127.0.0.1:8080/create_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&date=2022-07-01
+
+###
+POST http://127.0.0.1:8080/delete_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=1&event_id=100500
+
+###
+POST http://127.0.0.1:8080/create_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=100500&date=2022-07-01&name=Nonexistent+user
+
+###
+POST http://127.0.0.1:8080/update_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=100500&event_id=3&date=2022-06-28&name=Updated+nonexistent+user
+
+###
+POST http://127.0.0.1:8080/delete_event
+Content-Type: application/x-www-form-urlencoded
+
+user_id=100500&event_id=3
+
+###
+GET http://127.0.0.1:8080/events_for_month?user_id=100500&date=2022-06-01
