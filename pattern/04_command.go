@@ -8,6 +8,9 @@ package pattern
 
 import "fmt"
 
+// based on
+// https://www.sohamkamani.com/golang/command-pattern/
+
 type Command interface {
 	execute()
 }

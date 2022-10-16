@@ -8,6 +8,9 @@ package pattern
 
 import "fmt"
 
+// based on
+// https://levelup.gitconnected.com/the-strategy-pattern-in-go-2072d2b9d6ae
+
 type weapon interface {
 	useWeapon(opponent *Character)
 }

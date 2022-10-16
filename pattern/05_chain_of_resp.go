@@ -8,6 +8,9 @@ package pattern
 
 import "fmt"
 
+// based on
+// https://github.com/shubhamzanwar/design-patterns/tree/master/9-chain-of-responsibility
+
 type Step interface {
 	Run(*Customer)
 	SetNextStep(Step)

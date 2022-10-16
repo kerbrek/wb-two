@@ -13,6 +13,9 @@ import (
 	"time"
 )
 
+// based on
+// https://github.com/crazybber/awesome-patterns/blob/master/behavioral/state/problem.go
+
 type playerState interface {
 	heal(p *Player) error
 	hurt(p *Player, damage int)

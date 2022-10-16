@@ -8,6 +8,9 @@ package pattern
 
 import "fmt"
 
+// based on
+// https://github.com/shubhamzanwar/design-patterns/tree/master/7-facade
+
 type OrderFacade struct {
 	userService         UserService
 	productService      ProductService

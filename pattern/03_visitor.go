@@ -8,6 +8,9 @@ package pattern
 
 import "fmt"
 
+// based on
+// https://medium.com/@felipedutratine/visitor-design-pattern-in-golang-3c142a12945a
+
 type Employee interface {
 	FullName()
 	Accept(Visitor)

@@ -11,6 +11,9 @@ import (
 	"log"
 )
 
+// based on
+// https://github.com/shubhamzanwar/design-patterns/tree/master/1-factory
+
 type Pet interface {
 	GetName() string
 	GetSound() string

@@ -11,6 +11,9 @@ import (
 	"strings"
 )
 
+// based on
+// https://github.com/shubhamzanwar/design-patterns/tree/master/3-builder
+
 type sub struct {
 	bread     string
 	hasCheese bool
